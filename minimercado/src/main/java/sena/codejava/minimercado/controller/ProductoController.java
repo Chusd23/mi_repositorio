@@ -7,7 +7,7 @@ import sena.codejava.minimercado.model.Producto;
 import sena.codejava.minimercado.repository.ProductoRepository;
 
 @RestController
-@RequestMapping("/productos")
+@RequestMapping("/producto")
 public class ProductoController {
 
     @Autowired

@@ -5,7 +5,7 @@ import jakarta.persistence.*;
 @Entity
 @Inheritance(strategy = InheritanceType.JOINED)
 @Table(name = "usuario")
-public abstract class Usuario {
+public class Usuario {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
